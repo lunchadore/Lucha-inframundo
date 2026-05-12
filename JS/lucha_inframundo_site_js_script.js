@@ -1,8 +1,9 @@
 let allWrestlers = [];
+let eventListenerAttached = false;
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('roster.json')
+    fetch('lucha_inframundo_site_roster (1).json')
         .then(res => res.json())
         .then(data => {
             allWrestlers = data;
@@ -34,14 +35,17 @@ function renderRoster(data) {
     });
     grid.innerHTML = html;
 
-    // Event delegation for showing bio
-    grid.addEventListener('click', (e) => {
-        const card = e.target.closest('.wrestler-card');
-        if (card) {
-            const wrestlerId = parseInt(card.dataset.wrestlerId);
-            showBio(wrestlerId);
-        }
-    });
+    // Attach event listener only once
+    if (!eventListenerAttached) {
+        grid.addEventListener('click', (e) => {
+            const card = e.target.closest('.wrestler-card');
+            if (card) {
+                const wrestlerId = parseInt(card.dataset.wrestlerId);
+                showBio(wrestlerId);
+            }
+        });
+        eventListenerAttached = true;
+    }
 }
 
 function filterRoster(brand) {
