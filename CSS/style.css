@@ -1,0 +1,215 @@
+/* LUCHA INFRAMUNDO - Main Stylesheet */
+
+:root {
+    --primary-color: #1a1a1a;
+    --accent-color: #d4af37;
+    --danger-color: #dc3545;
+    --light-color: #f8f9fa;
+    --text-dark: #212529;
+    --text-muted: #6c757d;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--light-color);
+    color: var(--text-dark);
+}
+
+/* Navigation */
+.navbar {
+    background-color: var(--primary-color) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: var(--accent-color) !important;
+}
+
+.nav-link {
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--accent-color) !important;
+}
+
+/* Header Banner */
+.header-banner {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+    border-bottom: 4px solid var(--accent-color);
+    padding: 4rem 0 !important;
+}
+
+.header-banner h1 {
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+}
+
+.header-banner .lead {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    color: var(--accent-color);
+}
+
+/* Section Title */
+.section-title {
+    font-weight: 900;
+    font-size: 1.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+/* Wrestler Cards */
+.wrestler-card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.wrestler-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-container {
+    position: relative;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    height: 300px;
+}
+
+.card-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.wrestler-card:hover .card-img-container img {
+    transform: scale(1.05);
+}
+
+.record-badge {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: var(--accent-color);
+    color: var(--text-dark);
+    padding: 4px 10px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    border-radius: 2px;
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    margin-top: 0.5rem;
+}
+
+/* Buttons */
+.btn-dark {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.btn-dark:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--text-dark);
+}
+
+.btn-outline-dark {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--text-dark);
+}
+
+/* Modal */
+.modal-content {
+    border: none;
+}
+
+.modal-header {
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.modal-title {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.modal-profile-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.badge.bg-gold {
+    background-color: var(--accent-color) !important;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    border-top: 4px solid var(--accent-color);
+    margin-top: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-banner h1 {
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .card-img-container {
+        height: 250px;
+    }
+
+    .modal-profile-img {
+        height: 300px;
+    }
+}
+
+/* Text utilities */
+.text-danger {
+    color: var(--danger-color) !important;
+}
+
+.border-bottom {
+    border-color: #e0e0e0 !important;
+}
+
+.font-monospace {
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+}
