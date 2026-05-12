@@ -1,0 +1,87 @@
+:root {
+    --inframundo-black: #121212;
+    --inframundo-gold: #c5a059;
+    --inframundo-red: #8b0000;
+    --sports-gray: #f4f7f9;
+}
+
+body {
+    background-color: var(--sports-gray);
+    font-family: 'Inter', sans-serif;
+    color: var(--inframundo-black);
+}
+
+.fw-black { font-weight: 900; }
+
+.navbar {
+    background-color: var(--inframundo-black) !important;
+    border-bottom: 3px solid var(--inframundo-gold);
+}
+
+.navbar-brand {
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: var(--inframundo-gold) !important;
+}
+
+.header-banner {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1555661530-68c8e98db4e6?auto=format&fit=crop&q=80&w=2000');
+    background-size: cover;
+    background-position: center;
+}
+
+.section-title {
+    border-left: 5px solid var(--inframundo-red);
+    padding-left: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.wrestler-card {
+    border: none;
+    border-radius: 0;
+    border-bottom: 3px solid #ddd;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.wrestler-card:hover {
+    transform: translateY(-5px);
+    border-bottom: 3px solid var(--inframundo-red);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-img-container {
+    background-color: #fff;
+    position: relative;
+}
+
+.record-badge {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(18, 18, 18, 0.8);
+    color: white;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.card-title {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.bg-gold {
+    background-color: var(--inframundo-gold);
+}
+
+/* Modal Styling */
+.modal-profile-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid var(--inframundo-gold);
+}
