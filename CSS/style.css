@@ -123,6 +123,52 @@ body {
     margin-top: 0.5rem;
 }
 
+/* Event Cards */
+.event-card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.event-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.event-card .card-header {
+    background-color: var(--primary-color) !important;
+    border-bottom: 3px solid var(--accent-color);
+}
+
+.event-card .card-header h5 {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.match-result {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.border-gold {
+    border-color: var(--accent-color) !important;
+}
+
+.text-gold {
+    color: var(--accent-color);
+}
+
+.competitor-name {
+    font-weight: 900;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.winner-highlight {
+    color: var(--accent-color);
+}
+
 /* Buttons */
 .btn-dark {
     background-color: var(--primary-color);
@@ -197,6 +243,14 @@ footer {
 
     .modal-profile-img {
         height: 300px;
+    }
+
+    .match-result .row {
+        flex-direction: column;
+    }
+
+    .match-result .col-md-4 {
+        margin-bottom: 1rem;
     }
 }
 
