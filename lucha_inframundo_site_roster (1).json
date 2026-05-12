@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "EL ESPECTRO",
+    "brand": "Main Roster",
+    "image": "https://via.placeholder.com/400x600?text=EL+ESPECTRO",
+    "hometown": "Mexico City, MX",
+    "vitals": "5'11\", 215 lbs",
+    "style": "Rudo",
+    "record": "12-4-0",
+    "moves": "Inframundo Driver, La Quebrada",
+    "titles": "Inframundo Heavyweight Champion",
+    "bio": "A vengeful spirit returning from the depths to reclaim his mask. He is the cornerstone of the promotion."
+  },
+  {
+    "id": 2,
+    "name": "DRAGON DE ORO",
+    "brand": "Main Roster",
+    "image": "https://via.placeholder.com/400x600?text=DRAGON+DE+ORO",
+    "hometown": "Guadalajara, MX",
+    "vitals": "5'8\", 185 lbs",
+    "style": "Tecnico",
+    "record": "15-2-0",
+    "moves": "Golden Splash, Hurricanrana",
+    "titles": "High-Flyer Trophy Winner",
+    "bio": "The fan favorite known for defying gravity and his unwavering sense of justice."
+  },
+  {
+    "id": 3,
+    "name": "LA SOMBRA",
+    "brand": "Main Roster",
+    "image": "https://via.placeholder.com/400x600?text=LA+SOMBRA",
+    "hometown": "Unknown",
+    "vitals": "6'2\", 230 lbs",
+    "style": "Rudo",
+    "record": "8-5-1",
+    "moves": "Shadow Clutch, Powerbomb",
+    "titles": "None",
+    "bio": "A powerhouse who prefers to let his actions in the ring speak for his dark intentions."
+  }
+]
