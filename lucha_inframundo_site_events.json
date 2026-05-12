@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-10",
+    "event": "INFRAMUNDO SPECTACULAR",
+    "matches": [
+      {
+        "matchId": 1,
+        "competitor1": "EL ESPECTRO",
+        "competitor2": "LA SOMBRA",
+        "result": "EL ESPECTRO",
+        "type": "Singles Match",
+        "title": "Inframundo Heavyweight Championship"
+      },
+      {
+        "matchId": 2,
+        "competitor1": "DRAGON DE ORO",
+        "competitor2": "TBD",
+        "result": "DRAGON DE ORO",
+        "type": "High-Flyer Trophy Match",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "date": "2026-04-26",
+    "event": "SHADOW TOURNAMENT - FINALS",
+    "matches": [
+      {
+        "matchId": 3,
+        "competitor1": "LA SOMBRA",
+        "competitor2": "DRAGON DE ORO",
+        "result": "DRAGON DE ORO",
+        "type": "Tournament Final",
+        "title": "Shadow Trophy"
+      }
+    ]
+  }
+]
