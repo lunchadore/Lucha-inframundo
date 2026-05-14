@@ -1,0 +1,55 @@
+{
+  "championships": [
+    {
+      "id": "lucha_heavyweight",
+      "name": "LUCHA INFRAMUNDO HEAVYWEIGHT CHAMPIONSHIP",
+      "category": "Main",
+      "description": "The most prestigious championship in Lucha Inframundo, representing the absolute top competitor in the promotion.",
+      "image": "Images/championship_heavyweight.jpg",
+      "history": [
+        {
+          "reign": 1,
+          "champion": "Champion Name",
+          "startDate": "2026-01-15",
+          "endDate": "2026-05-14",
+          "daysHeld": 119,
+          "notes": "Inaugural champion"
+        }
+      ]
+    },
+    {
+      "id": "lucha_midcard",
+      "name": "LUCHA INFRAMUNDO MIDCARD CHAMPIONSHIP",
+      "category": "Main",
+      "description": "A championship for the rising stars and skilled competitors of Lucha Inframundo.",
+      "image": "Images/championship_midcard.jpg",
+      "history": [
+        {
+          "reign": 1,
+          "champion": "Champion Name",
+          "startDate": "2026-02-01",
+          "endDate": "2026-05-14",
+          "daysHeld": 102,
+          "notes": "Inaugural champion"
+        }
+      ]
+    },
+    {
+      "id": "lucha_tag",
+      "name": "LUCHA INFRAMUNDO TAG TEAM CHAMPIONSHIP",
+      "category": "Main",
+      "description": "The premier tag team championship, celebrating the strongest teams in Lucha Inframundo.",
+      "image": "Images/championship_tag.jpg",
+      "history": [
+        {
+          "reign": 1,
+          "champion": "Team Name",
+          "startDate": "2026-03-01",
+          "endDate": "2026-05-14",
+          "daysHeld": 74,
+          "notes": "Inaugural champions"
+        }
+      ]
+    }
+  ]
+}
